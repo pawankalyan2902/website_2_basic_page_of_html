@@ -1,0 +1,104 @@
+body {
+    background-color: rgba(186, 186, 221, 0.292);
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 5x;
+    border-radius:20px ;
+    border-color: aqua;
+    margin: 20px;
+    border: 3px solid rgba(0, 102, 255, 0.321);
+}
+
+#para {
+    background-color: chocolate;
+    background-size: 0%;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+img {
+    border-radius: 75%;
+    display: block;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    padding:1px;
+    display:inline-block;
+    text-align: center;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: lightblue;
+    color: white;
+    border-radius: 10%;
+    
+}
+/* descendat of body */
+ul {
+    background-color: chocolate;
+    border-radius: 2cqmax;
+    width: 15cm;
+    margin:auto auto auto auto;
+    padding: 10px 25px 25px 25px; 
+    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.603);
+}
+button:hover{
+     background-color:rgb(237, 189, 14) ;
+     border-color:rgb(247, 175, 7);
+     margin-right: 0%;
+}
+/* combinators */
+.head{
+   color: darkblue;
+   text-align: center;
+    justify-content: space-between;/*very important to allign */
+   display:flex;
+   flex-direction: row;
+   background-color:rgba(243, 233, 255, 255);
+   padding: 10px;
+}
+.material-symbols-outlined
+{
+    color: brown;
+    
+}
+button
+{
+    background-color: rgb(200, 137, 54);
+    border-radius: 10px;
+   
+}
+
+h5
+{
+    margin: 0px 100px 0px 0px;
+    color: black;
+    
+}
+input{
+    color: blueviolet;
+    padding: 6px;
+    margin-top:0cm ;
+    border-radius: 50px;
+    border-color: brown;
+}
+div{
+    display: flex;
+}
+
+/* virat 2nd page */
+
+
+
+
