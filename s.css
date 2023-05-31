@@ -1,5 +1,6 @@
 body {
     background-color: rgba(186, 186, 221, 0.292);
+   
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
     border-color: aqua;
     margin: 20px;
     border: 3px solid rgba(0, 102, 255, 0.321);
+    flex-wrap: nowrap;
 }
 
 #para {
@@ -62,10 +64,11 @@ button:hover{
 .head{
    color: darkblue;
    text-align: center;
-    justify-content: space-between;/*very important to allign */
+    justify-content:space-between;/*very important to allign */
    background-color:rgba(243, 233, 255, 255);
    display:flex;
    padding: 10px;
+   align-items: center;
 }
 .material-symbols-outlined
 {
@@ -81,7 +84,7 @@ button
 
 h5
 {
-    margin: 0px 100px 0px 0px;
+  
     color: black;
     
 }
